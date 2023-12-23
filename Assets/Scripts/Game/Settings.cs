@@ -97,7 +97,7 @@ public class Settings : MonoBehaviour
     /// </summary>
     public static Settings Instance
     { get { return sInstance; } }
-    
+
     /*
      * Task #3: Implement the local multiplayer
      * Useful functions and variables:
@@ -107,6 +107,9 @@ public class Settings : MonoBehaviour
      * Add the Player Input Manager to the Settings object, handle the new player registration,
      *   and enable joining of second player using the alternative input scheme.
      */
+
+    private PlayerInputManager mPlayerInputManager;
+
 
     /// <summary>
     /// Called when the script instance is first loaded.

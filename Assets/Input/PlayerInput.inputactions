@@ -91,7 +91,7 @@
                 {
                     "name": "",
                     "id": "cfff6c59-416a-45ef-bfde-16ad83c5f5ff",
-                    "path": "<Mouse>/leftButton",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "M&K1",
@@ -1050,7 +1050,13 @@
         {
             "name": "Secondary Control Scheme",
             "bindingGroup": "Secondary Control Scheme",
-            "devices": []
+            "devices": [
+                {
+                    "devicePath": "<DualShockGamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
         }
     ]
 }
